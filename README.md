@@ -2,7 +2,7 @@
 
 A real-time assistive navigation system for visually impaired users that combines obstacle detection, walkable surface detection, and monocular depth estimation to generate dense navigation risk heatmaps using learned spatial reasoning.
 
-![Architecture Diagram](Paper/Architecture%20Diagram.png)
+<img width="1080" height="640" alt="architecture_diagram" src="https://github.com/user-attachments/assets/49f18107-2384-468a-9390-ba912eb09a6f" />
 
 ## Overview
 
@@ -83,7 +83,8 @@ python riskmap_generation.py \
 
 **Example output:**
 
-![Single Image Inference Example](Output/plain_inference/ablation_results/image_000000_ablation.png)
+![pavement3_output](https://github.com/user-attachments/assets/336e71a3-53c8-4ee6-b52e-1540aec20138)
+
 *Left to right: Input image, obstacle map, walkability map, depth map, final risk map*
 
 ### Video/Batch Inference
@@ -135,7 +136,7 @@ python riskmap_ablation_study_folder.py \
 
 **Ablation visualization:**
 
-![Ablation Study Comparison](RiskheadCNN_Ablation/plain_inference/ablation_results/image_000001_ablation.png)
+<img width="1080" height="640" alt="ablation" src="https://github.com/user-attachments/assets/f317875f-105f-4d5f-b13b-5ae6bc498416" />
 *Comparison of different fusion strategies: obstacles-only, walkability-only, depth-only, rule-based, RiskCNN*
 
 This generates side-by-side comparisons showing:
@@ -258,24 +259,6 @@ See `RuleBased Scripts/inference_enhanced.py` for a complete pipeline example.
 - Integrates walkability and depth appropriately
 
 See sample outputs in `RiskheadCNN_Ablation/plain_inference/ablation_results/`
-
-## Paper & Citation
-
-Research paper available in `Paper/`:
-- IEEE version: `PROXINAV_IEEE_Version.pdf`
-- Procedia version: `Procedia_Paper_Proxi_NAV.pdf`
-
-If you use this work, please cite:
-
-```bibtex
-@article{ProxiNav2024,
-  title   = {PROXI-NAV: Risk-Aware Assistive Navigation via Learned Spatial Risk Modeling},
-  author  = {[Authors]},
-  journal = {[Venue]},
-  year    = {2024},
-  url     = {https://github.com/Purgty/ProxiNAV-Depth-Guided-Walker}
-}
-```
 
 ## Limitations
 
