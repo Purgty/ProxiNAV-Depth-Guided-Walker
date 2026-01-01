@@ -1,0 +1,18 @@
+Paper/
+Pavement_Dataset_Model/
+RiskHead Scripts/CNN/risk_cnn.pt
+WOTR_Dataset_Model/
+Output2.zip
+Riskhead Scripts.zip
+Datasets/Pavement_Data/augmented_yolo_dataset
+Datasets/Pavement_Data/original_yolo_dataset
+Datasets/WTour_Dataset
+Datasets/data.zip
+Datasets/output_frames.zip
+Output/processed_frames
+Output/plain_inference
+Output/annotated_frames_pavement_val
+Assets/Images to Use.docx
+Assets/OnlyCameraSideSeeing.mp4
+Datasets/pavement_data_yolo.zip
+Assets/walking_pov_riskmap.mp4
