@@ -278,11 +278,6 @@ See sample outputs in `RiskheadCNN_Ablation/plain_inference/ablation_results/`
 ## License
 
 MIT License - see LICENSE file for details.
-
-## Contact
-
-For questions or collaboration, please open an issue on GitHub.
-
 ---
 
 **Architecture diagram created with:** `Paper/architecture_diag.py`  
